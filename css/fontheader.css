@@ -27,8 +27,8 @@
 /*@import url("//hello.myfonts.net/count/30b87c");*/
 
   
-@font-face {font-family: 'BelovedScriptBasic-Bold';src: url('/fonts/30B87C_0_0.eot');src: url('/fonts/30B87C_0_0.eot?#iefix') format('embedded-opentype'),url('/fonts/30B87C_0_0.woff2') format('woff2'),url('/fonts/30B87C_0_0.woff') format('woff'),url('/fonts/30B87C_0_0.ttf') format('truetype');}
+@font-face {font-family: 'BelovedScriptBasic-Bold';src: url('../fonts/30B87C_0_0.eot');src: url('../fonts/30B87C_0_0.eot?#iefix') format('embedded-opentype'),url('../fonts/30B87C_0_0.woff2') format('woff2'),url('../fonts/30B87C_0_0.woff') format('woff'),url('../fonts/30B87C_0_0.ttf') format('truetype');}
  
   
-@font-face {font-family: 'BelovedScriptBasic';src: url('/fonts/30B87C_1_0.eot');src: url('/fonts/30B87C_1_0.eot?#iefix') format('embedded-opentype'),url('/fonts/30B87C_1_0.woff2') format('woff2'),url('/fonts/30B87C_1_0.woff') format('woff'),url('/fonts/30B87C_1_0.ttf') format('truetype');}
+@font-face {font-family: 'BelovedScriptBasic';src: url('../fonts/30B87C_1_0.eot');src: url('../fonts/30B87C_1_0.eot?#iefix') format('embedded-opentype'),url('../fonts/30B87C_1_0.woff2') format('woff2'),url('../fonts/30B87C_1_0.woff') format('woff'),url('../fonts/30B87C_1_0.ttf') format('truetype');}
  
