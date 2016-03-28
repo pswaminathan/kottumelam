@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Find your Indian bride" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/fontheader.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Instant Indian Marriage</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1 class="text-center">Find your Indian bride...</h1>
+      <br><br>
+      <script async="true" src="//code.jquery.com/jquery-2.2.2.min.js"></script>
+      <!-- <script async="true" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script> -->
+      <script type="text/javascript">
+        function playTrack(url) {
+          if (url !== undefined) {
+            $("#mp3_source").attr("src", url);
+            $("#player")[0].load();
+          }
+          $("#player")[0].play();
+        }
+      </script>
+      <audio id="player" preload="auto">
+        <source id="mp3_source" src="/audio/kottumelam.mp3" type="audio/mpeg">
+      </audio>
+      <div id="wrapper">
+        <button align="center" class="btn btn-default btn-lg btn-block enter-button" type="button" onclick="playTrack();">Enter</button>
+      </div>
+    </div>
+      <footer>Created with &#x2764; by <a href="https://github.com/pswaminathan" target="_blank">Prasanna Swaminathan</a></footer>
+  </body>
+</html>

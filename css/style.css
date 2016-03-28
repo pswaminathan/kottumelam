@@ -1,0 +1,28 @@
+body {
+	background-image: url("/images/wedding-hands.jpg");
+}
+
+.wrapper {
+	text-align: center;
+}
+
+h1 {
+	font-family: "BelovedScriptBasic-Bold";
+}
+
+.enter-button {
+	margin:0 auto;
+	/*background-color: Transparent;*/
+	/*opacity: 0.5;*/
+	width: 25%;
+	/* Fallback for web browsers that doesn't support RGBa */
+	background: rgb(0, 0, 0);
+	/* RGBa with 0.6 opacity */
+	background: rgba(0, 0, 0, 0.2);
+	font-family: BelovedScriptBasic;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+}
